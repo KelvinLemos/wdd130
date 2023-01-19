@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Serif&display=swap');
+:root {
+    --heading-font: "Cinzel Decorative";
+    --paragraph-font: "PT Serif", Helvetica, sans-serif;
+}
 div {
     max-width: 1600px;
 }
 .logo {
-    width: 80px;
+    width: 120px;
 }
 #hero-img {
     width: 100%;
@@ -11,7 +16,17 @@ div {
     
     margin: 0 auto;
 }
-#hero-msg h1, #hero-msg h4 {
+
+#hero-msg h4 {
+    text-align: center;
+    font-size: 15px;
+}
+#hero-msg h1 {
+    text-align: center;
+    font-size: 2em;
+    
+    ;
+    background-color: white;
     text-align: center;
 }
 .button-box {
@@ -24,6 +39,7 @@ main section {
     height: 725px;
 }
 body {
+    margin: 0;
     background-color: white;
 }
 header {
@@ -37,18 +53,23 @@ nav a:hover  {
 
 
 .book, .join  {
+    font-size: 18px;
     text-align: center;
     background-color: white;
     text-decoration: none;
 }
 
 #background {
-    background-color: white;
+    background-color: #f26a1b;
 }
 .msg {
+    padding: 92px;
+    line-height: 1.5em;
     background-color: white;
 }
 footer {
+    padding: -8px;
+    margin: -9px;
     background-color: #c2c2ff;
 }
 
@@ -56,11 +77,16 @@ footer {
     width: 80px;
 }
 footer a{
+    color: #5233ff;
+    margin: -10px;
     text-align: center;
     text-decoration: none;
 }
 footer p{
+    padding: 25px;
     font-size: 1.2em;
+    color: black;
+    margin: -7px auto;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -73,12 +99,14 @@ nav a {
 }
 
 .home-title{
-    background-color: #c2c2ff;
+    font-size: 2em;
+    font-family: var(--heading-font);
     color: #5233ff;
 
 }
 h4 {
-    background-color: #c2c2ff;
+    font-family: "Cinzel Decorative";
+    background-color: white;
     color: #5233ff;
 }
 
@@ -88,11 +116,11 @@ h4 {
     text-decoration: none;
 }
 .msg h2 {
-    background-color: #c2c2ff;
+    font-family: var(--heading-font);
     color: #5233ff;
 }
 .msg p {
-    background-color: #c2c2ff;
+    font-family: var(--heading-font);
     color: #5233ff;
 }
 
@@ -101,3 +129,19 @@ footer a:hover {
     background-color: #c2c2ff;
     color: #5233ff;
 }
+h1 {
+    margin: 50px 0;
+}
+a {
+    padding: 10px;
+    margin: 5px;
+    line-height: 1.5em;
+}
+
+main img {
+    padding: 25px;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid #f26a1b;
+}
+
