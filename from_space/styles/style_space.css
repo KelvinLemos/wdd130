@@ -78,9 +78,33 @@ nav a {
     font-size: 1em;
 
 }
-section main-title {
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+main section {
+    display: grid;
     text-align: center;
 }
+.main-content {
+    grid-column: 1;
+    grid-row: 1;
+}
+.main-two{
+    display: grid;
+    grid-column: 3;
+    grid-template-rows: 2;
+}
+.msg {
+    grid-column: 110;
+    grid-row: 1;
+    padding: 35px;
+    line-height: 1.5em;
+    background-color: white;
+}
+
 main img {
     width: 100%;
     display: grid;
